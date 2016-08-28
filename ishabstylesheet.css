@@ -96,9 +96,9 @@ h1{
 	font-size: 30px;
 	font-weight: bold;
 	font-family: serif;
-	text-shadow:10px 10px 15px white;
+	text-shadow:10px 10px 8px black;
 	text-align: center;
-	color:purple;
+	color:gold;
 }
 .social_network_container{
 	background-color: #4A148C;
