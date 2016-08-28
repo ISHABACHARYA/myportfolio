@@ -1,0 +1,146 @@
+body{
+	margin:0px auto;
+	padding:0px; 
+}
+.main_head_container{
+	background-color: #6A1B9A;
+	padding-top: 80px;
+}
+.image_container{
+	
+	margin: auto;
+	box-shadow: 1 5 3 grey;
+	width: 250px;
+	height:250px;
+	margin: auto;
+}
+.image_container img{
+	border-radius: 50%;
+	width:250px;
+	height:250px;
+	box-shadow: 0px 8px 40px white;
+}
+.image_container a{
+	opacity:.8;
+}
+.main_head_container a:hover{
+	opacity:1;
+}
+h1{
+	font-family: cursive;
+	font-size: 70px;
+	text-align: center;
+	color: rgb(200,100,200);
+	text-shadow: 5px 20px 20px black;
+}
+.main_head_container p{
+	font-size:30px;
+	text-align:center;
+	color:rgba(200,100,300,100);
+	font-family: "Comic Sans MS", cursive;
+}
+.main_head_container h2{
+	text-align: center;
+	color:rgb(200,80,200);
+	font-size: 40px;
+	font-family: cursive;
+	text-shadow: 10px 20px 25px black;
+}
+.educational_part_container{
+	background-color: #7B1FA2;
+	font-family: georgia,serif;
+	margin-top: -39px;
+
+}
+.educational_part_container h3 , h2{
+	padding-top:40px;
+	font-size: 40px;
+	text-shadow:5px 15px 20px black;
+	text-align:center;
+	color: rgb(250,100,250);
+}
+.educational_part_container p{
+	font-family: vardana;
+	font-size: 30px;
+	text-align: center;
+}
+.educational_part_container h4{
+	font-family: serif;
+	font-size: 20px;
+	color:rgb(1000,0,250);
+	margin-left: 200px;
+	padding-left:10px;
+	box-shadow: 0px 8px 10px black;
+	background-color: rgb(50,0,100);
+}
+.educational_part_container #one{
+	width:60%;	
+}
+.educational_part_container #two{
+	width:40%;	
+}
+.educational_part_container #three{
+	width:50%;	
+}
+.educational_part_container #four{
+	width:10%;
+}
+.hobby_container{
+	background-color: #7B1FA2;
+	margin-top: -31px;
+}
+.hobby_container h2{
+	font-family: georgia;
+}
+.hobby_container h4{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: serif;
+	text-shadow:10px 10px 15px white;
+	text-align: center;
+	color:purple;
+}
+.social_network_container{
+	background-color: #4A148C;
+	margin-top: -40px;
+}
+.social_network_container h3{
+	font-family: cursive;
+	font-size: 30px;
+	color:rgb(200,100,200);
+}
+.social_network_container img{
+	width:50px;
+	height:50px;
+	border-radius: 40%;
+	box-shadow: 2px 3px 5px white;
+	margin-left:50px;
+}
+.social_network_container a{
+	opacity: .7;
+}
+.social_network_container a:hover{
+	opacity: 1;
+}
+footer{
+	background-color: #4A148C;
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bolder;
+	height:30px;
+	padding-top: 40px;
+	color:#CFD8DC;
+	text-align: center;
+}
+@media screen and (max-width: 600px){
+	.educational_part_container h4{
+		background-color: #7B1FA2;
+		box-shadow: 0px 0px 0px #7B1FA2;
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+.image_container a,.social_network_container a{
+	opacity: 1;
+}
+
+} 
