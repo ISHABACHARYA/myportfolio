@@ -143,4 +143,31 @@ footer{
 	opacity: 1;
 }
 
-} 
+}
+form #small_box{
+	width:200px;
+	height:40px;
+	box-shadow: 2px 8px 15px grey;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+form #big_box{
+	width: 400px;
+	height: 150px;
+	box-shadow: 2px 8px 15px grey;
+}
+form #submit{
+	box-shadow: 2px 8px 15px grey;
+	margin-top:20px;
+	height: 30px;
+	width:80px;
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	color:indigo;
+}
+form #submit:hover{
+	background-color: indigo;
+	color:white;
+}	
