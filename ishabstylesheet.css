@@ -144,6 +144,11 @@ footer{
 }
 
 }
+form{
+	background-color:#4A148C;
+	padding-left:20px;
+}
+	
 form #small_box{
 	width:200px;
 	height:40px;
